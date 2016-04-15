@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/loginlayout">
+    
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+            <ImageView
+                android:id="@+id/dress1"
+                android:layout_width="21dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="4dp"
+              	
+              	 />
+
+            <TextView
+                android:id="@+id/dressdescription1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="@string/shirt"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/dresstype1_spinner1"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/selectcolor"
+                android:textSize="8sp" />
+
+            <Button
+                android:id="@+id/minus_button1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:background="#898989"
+                android:gravity="center"
+                android:text="@string/minus"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/orderquantity1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/schedule_corner"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/add_button1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="#00a2d6"
+                android:text="@string/add"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/C:/Users/cubecnelson/Documents/WeClean%20source/WeClean%20source/weClean/src/main/res/layout-xxhdpi/schedulepickup_custom.xml -->

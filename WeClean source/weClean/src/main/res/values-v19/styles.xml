@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NoTitleBar" parent="@android:style/Theme.Holo.Light.NoActionBar.TranslucentDecor">
+        <item name="android:textColor">@color/Trans</item>
+        <item name="android:textSize">16dp</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

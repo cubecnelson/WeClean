@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#cccccc" >
+
+    <ImageView
+        android:id="@+id/status_ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+       android:background="@drawable/gold"/>
+
+    <TextView
+        android:id="@+id/name_textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="34dp"
+        android:layout_toRightOf="@+id/status_ImageView"
+        android:text="John"
+        android:textColor="#000000"  />
+
+    <TextView
+        android:id="@+id/deliver_textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/name_textView2"
+        android:layout_alignBottom="@+id/name_textView2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:text="Delivered" 
+        android:textColor="#000000" 
+        android:visibility="gone"/>
+
+</RelativeLayout>
+</RelativeLayout>
+<!-- From: file:/C:/Users/cubecnelson/Documents/WeClean%20source/WeClean%20source/weClean/src/main/res/layout-xxhdpi/custom_listofcustomer.xml -->

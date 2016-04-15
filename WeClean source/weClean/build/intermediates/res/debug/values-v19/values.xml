@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/cubecnelson/Documents/WeClean%20source/WeClean%20source/weClean/src/main/res/values-v19/styles.xml -->
+    <eat-comment/>
+    <style name="NoTitleBar" parent="@android:style/Theme.Holo.Light.NoActionBar.TranslucentDecor">
+        <item name="android:textColor">@color/Trans</item>
+        <item name="android:textSize">16dp</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:weightSum="3" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_bck" >
+
+        <TextView
+            android:id="@+id/reciveordertextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="14dp"
+            android:text="@string/recive_order"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/orderidtextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/orderidtextView1"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@+id/orderidtextView1"
+           
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/orderidtextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="66dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/order_id"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pickuptextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:text="@string/pick_up"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/pickup_order_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="80dp"
+            android:text="Monday 12:00 pm"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/camebytextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="40dp"
+            android:text="@string/before_came"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/edittext_border" >
+
+        <Button
+            android:id="@+id/paynow_button1"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="62dp"
+            android:background="@drawable/button_border"
+            android:text="@string/paynow"
+            android:textColor="#ffffff"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/payafter_button2"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:layout_alignBaseline="@+id/paynow_button1"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/paynow_button1"
+            android:background="@drawable/button_border"
+            android:text="@string/paylater"
+            android:textColor="#ffffff"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/estimated_textView1"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="3dp"
+            android:text="@string/deliCharge"
+            android:textColor="#000000" 
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/TotalItems"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/TextView01"
+            android:text="123"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/deliverycharge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/TextView02"
+            android:layout_alignBottom="@+id/TextView02"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/TextView02"
+            android:text="123"
+            android:textColor="#000000" 
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/TotalItem"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/estimated_textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:text="123"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/estimated_textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_toLeftOf="@+id/estimated_textView2"
+            android:text="@string/toatldue"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/credit_spinner1"
+            android:layout_width="120dp"
+            android:layout_height="25dp"
+            android:layout_alignTop="@+id/payment_textView1"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/payment_textView1"
+            android:entries="@array/Payment_type" 
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/payment_textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/payment"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/edittext_border" >
+
+        <TextView
+            android:id="@+id/order_textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/deliver_text"
+            android:textColor="#999999" />
+
+        <TextView
+            android:id="@+id/workingday_textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/order_textView1"
+            android:layout_toRightOf="@+id/order_textView1"
+            android:text="@string/working_days"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/order_delivery_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/expect_textView1"
+            android:layout_marginLeft="1dp"
+            android:layout_toRightOf="@+id/expect_textView1"
+            android:text="15 Aug,6:00 pm"
+            android:textColor="#000000" />
+        
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="70dp"
+            android:src="#999999" />
+
+        <TextView
+            android:id="@+id/expect_textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/order_textView1"
+            android:layout_below="@+id/order_textView1"
+            android:layout_marginTop="13dp"
+            android:text="@string/ExpectedDeliveryDate"
+            android:textColor="#999999" />
+
+        <TextView
+            android:id="@+id/selct_textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView1"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginTop="5dp"
+            android:text="@string/delivery_text"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/deli_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/selct_textView1"
+            android:layout_below="@+id/selct_textView1"
+            android:layout_marginTop="15dp"
+            android:text="@string/delivery_time"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/delivery_type"
+            android:layout_width="120dp"
+            android:layout_height="25dp"
+            android:layout_alignRight="@+id/imageView1"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginTop="5dp"
+            android:entries="@array/deliveryto" />
+
+        <Spinner
+            android:id="@+id/delivery_time"
+            android:layout_width="120dp"
+            android:layout_height="25dp"
+            android:layout_alignLeft="@+id/delivery_type"
+            android:layout_below="@+id/delivery_type"
+            android:layout_marginTop="5dp"
+            android:entries="@array/duration_array" />
+
+        <Button
+            android:id="@+id/change"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_border"
+            android:text="@string/change"
+            android:textColor="#ffffff"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2" 
+    android:orientation="vertical"
+    android:id="@+id/loginlayout" > 
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/pickup_textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:text="@string/pickup_text"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/pickup_spinner1"
+            android:layout_width="145dp"
+            android:layout_height="35dp"
+            android:layout_alignLeft="@+id/pickup_textView1"
+            android:layout_below="@+id/pickup_textView1"
+            android:layout_marginTop="1dp" 
+             android:paddingRight="15dp"/>
+
+        <TextView
+            android:id="@+id/delivery_textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/pickup_spinner1"
+            android:layout_below="@+id/pickup_spinner1"
+            android:layout_marginTop="1dp"
+            android:text="@string/delivery_text"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/delivery_spinner1"
+            android:layout_width="145dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/delivery_textView1"
+            android:layout_below="@+id/delivery_textView1"
+            android:layout_marginTop="1dp" 
+             android:paddingRight="15dp"/>
+
+        <Spinner
+            android:id="@+id/time_spinner1"
+            android:layout_width="145dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/pickup_spinner1"
+            android:layout_marginRight="10dp" 
+             android:paddingRight="15dp"/>
+
+        <TextView
+            android:id="@+id/delivery_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/delivery_spinner1"
+            android:layout_alignLeft="@+id/time_textView2"
+            android:text="@string/delivery_time"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/time_textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/pickup_textView1"
+            android:layout_alignBottom="@+id/pickup_textView1"
+            android:layout_alignLeft="@+id/time_spinner1"
+            android:text="@string/time"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/delivery_time_spinner"
+            android:layout_width="145dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/delivery_time"
+            android:layout_alignTop="@+id/delivery_spinner1"
+            android:paddingRight="15dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1.6"
+        android:background="@drawable/schedule_corner"
+        android:orientation="vertical"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/orderdetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.1"
+            android:text="Order Details"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/customerlistView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.9"
+            android:alpha="0.9"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:fadeScrollbars="false"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:scrollbarThumbVertical="@drawable/custom_scroll_style" >
+        </ListView>
+    </LinearLayout>
+>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:weightSum="4" >
+
+        <TextView
+            android:id="@+id/special_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:text="@string/special_request"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/Special_request"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/white_round" />
+
+        <include layout="@layout/tablesummary" />
+
+        <Button
+            android:id="@+id/place_order"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_bck"
+            android:text="@string/PlaceOrder"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/delete_order"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_bck"
+            android:text="@string/DeleteOrder"
+            android:textColor="#ffffff"
+            android:textStyle="bold" 
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/deliverchargesMsg"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Hin%20Chi%20Choi/Documents/work/weclean/WeClean%20source/weClean/src/main/res/layout-hdpi/schedule_pickup.xml -->

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\classes-d6a90c3cd5c7a2698deafbd4f125c8518730c98d.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\classes-b8f15105624f56afac94ed04bcf5d5a230f0dbe2.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="af64527b748983a75de9c0756e9768b56b240a49">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\classes-e98f5e59f988f29c0650033428ba4f33259e7440.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\classes-9a63dc16f1e13acc355743435469cd163b9f41f3.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\classes-f60d4bd9e6a9bfe773000f077af4cf0b697ec502.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\exploded-aar\WeClean source\library\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8d6881b90a4c6e1f3860c9190fcf7896a6e05b93">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\classes-610896c7de5147aabafeb647d81c1980e80ff068.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\classes-dbd44eda130456e13252f37fc30c49b9b2ae2bd0.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\classes-7d1f130410dd5b14d7d679e2f61d68ba2979faf1.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\classes-26ff9fb859bbe6316cc50a3edadd05605b34d9ef.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\classes-ead42d0010d6296566bda3b385008ec508397082.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\libs\picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\picasso-2.4.0-bf062e54bf475a4174b624e9d8aefa6f1ab0a1b7.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\classes-e469aba5dd76bd1430b47492057000a34880ff65.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\classes-49b6d567b1b22c09708cf013a312f211a01a8ea5.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\classes-8fdf8c97b1cc6f042d29732d4ac664688c4aec5f.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\classes-e0377a9953c39874616e04c055665a06839fea66.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\classes-1c713754a1fa1f313d195f8ad9530427e8e2249f.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\libs\PayPalAndroidSDK-2.5.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d69f24b4554a7fbe65ee0d59f3453c5b60607a34">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\PayPalAndroidSDK-2.5.6-0e9a52b2ba4a9b416b426208ee8538c8edac3070.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\classes-b7457f89a48697885dfcc6efe1358a4919124807.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\classes-e4026c61b20ebabb7c94a7a4e53c1b1c3c99659a.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\classes-b9358711d779663f1ddc10a3d279cd35359f77c5.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-f186cdcd741c8fd18412de1394d993f4f3a74c5f.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\classes-b28579a193c2195e520a74ffa85bfaf4b5c7165a.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\classes-03ca32795a628cdcc16800f0cbd2489e3c029692.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\classes-7120b206a39208aadb0f27e3876f0941f6bbc295.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\classes-96a7949e60a2e9be562b72b93313b9fe34f641f6.jar" />
+    </item>
+    <item
+        jar="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\cubecnelson\Documents\WeClean source\WeClean source\weClean\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-5ff06eab30caefe38ae13902a30b3fd5c0a95fbd.jar" />
+    </item>
+
+</items>

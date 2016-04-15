@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lysidemenu"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#e4f0f4"
+    android:orientation="vertical"
+      >
+
+    <LinearLayout
+        android:id="@+id/lysidebartitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:background="#e4f0f4" >
+
+  <ImageView
+      android:id="@+id/slidingmenu_section_icon"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+      android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/slidingmenu_section_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="menu1"
+            android:textColor="#5e5e5e"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

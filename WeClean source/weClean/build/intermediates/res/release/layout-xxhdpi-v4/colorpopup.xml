@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Aqua"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <Button
+        android:id="@+id/White"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="17dp"
+        android:background="@color/White"
+        android:text="" />
+
+    <Button
+        android:id="@+id/Gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/White"
+        android:layout_alignBottom="@+id/White"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/White"
+        android:background="@color/Gray" />
+
+    <Button
+        android:id="@+id/Orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Red"
+        android:layout_alignBottom="@+id/Red"
+        android:layout_alignLeft="@+id/Gray"
+        android:background="@color/Orange" />
+
+    <Button
+        android:id="@+id/Yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Orange"
+        android:layout_alignBottom="@+id/Orange"
+        android:layout_alignLeft="@+id/Black"
+        android:background="@color/Yellow" />
+
+    <Button
+        android:id="@+id/Green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Yellow"
+        android:layout_alignBottom="@+id/Yellow"
+        android:layout_alignLeft="@+id/Pink"
+        android:background="@color/Green" />
+
+    <Button
+        android:id="@+id/DarkGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Red"
+        android:layout_marginTop="37dp"
+        android:layout_toLeftOf="@+id/Gray"
+        android:background="@color/DarkGreen" />
+
+    <Button
+        android:id="@+id/Blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/DarkGreen"
+        android:layout_alignBottom="@+id/DarkGreen"
+        android:layout_alignLeft="@+id/Orange"
+        android:background="@color/Blue" />
+
+    <Button
+        android:id="@+id/DarkBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Blue"
+        android:layout_alignBottom="@+id/Blue"
+        android:layout_alignLeft="@+id/Yellow"
+        android:background="@color/DarkBlue" />
+
+    <Button
+        android:id="@+id/Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/DarkGreen"
+        android:layout_below="@+id/White"
+        android:layout_marginTop="40dp"
+        android:background="@color/Red" />
+
+    <Button
+        android:id="@+id/Purple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/DarkBlue"
+        android:layout_alignBottom="@+id/DarkBlue"
+        android:layout_alignLeft="@+id/Green"
+        android:background="@color/Purple" />
+
+    <Button
+        android:id="@+id/Black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Red"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/Gray"
+        android:background="@color/Black" />
+
+    <Button
+        android:id="@+id/Pink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Red"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/Black"
+        android:background="@color/Pink" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Hin%20Chi%20Choi/Documents/work/weclean/WeClean%20source/weClean/src/main/res/layout-xxhdpi/colorpopup.xml -->

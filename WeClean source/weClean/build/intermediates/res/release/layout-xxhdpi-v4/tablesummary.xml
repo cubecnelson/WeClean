@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#636363"
+    android:stretchColumns="*" >
+
+    <TableRow android:id="@+id/tableRow1" >
+
+        <TextView
+            android:id="@+id/total_textView1"
+            android:layout_margin="1dp"
+            android:background="#c2c2c2"
+            android:padding="5dp"
+            android:text="@string/TotalItem"
+            android:textColor="#525252"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/productID"
+            android:layout_margin="1dp"
+            android:background="#c2c2c2"
+            android:padding="5dp"
+            android:text="@string/EstimatedDue"
+            android:textColor="#525252"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/Discount"
+            android:layout_margin="1dp"
+            android:background="#c2c2c2"
+            android:padding="5dp"
+            android:text="@string/Discount"
+            android:textColor="#525252"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/TotalEstimatedDue"
+            android:layout_margin="1dp"
+            android:background="#c2c2c2"
+            android:padding="5dp"
+            android:text="@string/TotalEstimatedDue"
+            android:textColor="#525252"
+            android:textSize="12sp" />
+    </TableRow>
+
+    <TableRow android:id="@+id/tableRow2" >
+
+        <TextView
+            android:id="@+id/total_textView2"
+            android:layout_margin="1dp"
+            android:background="#c2c2c2"
+            android:padding="5dp"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/estimatedDue"
+            android:layout_margin="1dp"
+            android:background="#c2c2c2"
+            android:padding="5dp"
+            android:text="@string/defaultCost"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Discount2"
+            android:layout_margin="1dp"
+            android:background="#c2c2c2"
+            android:padding="5dp"
+            android:text="N/A"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TotalEstimatedDue2"
+            android:layout_margin="1dp"
+            android:background="#c2c2c2"
+            android:padding="5dp"
+            android:text="@string/defaultCost"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+</TableLayout><!-- From: file:/C:/Users/Hin%20Chi%20Choi/Documents/work/weclean/WeClean%20source/weClean/src/main/res/layout-xxhdpi/tablesummary.xml -->

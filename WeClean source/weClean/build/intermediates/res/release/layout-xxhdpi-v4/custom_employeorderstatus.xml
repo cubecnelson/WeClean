@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp"
+        android:background="#cccccc" >
+
+        <TextView
+            android:id="@+id/orderlist_textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="W148145"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/complete_textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/orderlist_textView1"
+            android:text="Pick up"
+            android:textColor="#CC0000" />
+
+        <TextView
+            android:id="@+id/deliver_textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/complete_textView2"
+            android:layout_alignBottom="@+id/complete_textView2"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:text="$250"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/unpaid_textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/deliver_textView3"
+            android:layout_marginRight="40dp"
+            android:layout_toLeftOf="@+id/deliver_textView3"
+            android:text="unpaid"
+            android:textColor="#CC3300" />
+
+        <RelativeLayout
+            android:layout_width="0.5dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@+id/orderlist_textView1"
+            android:background="#000000" >
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0.5dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:background="#000000" >
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0.5dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:layout_toLeftOf="@+id/deliver_textView3"
+            android:background="#000000" >
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/Hin%20Chi%20Choi/Documents/work/weclean/WeClean%20source/weClean/src/main/res/layout-xxhdpi/custom_employeorderstatus.xml -->

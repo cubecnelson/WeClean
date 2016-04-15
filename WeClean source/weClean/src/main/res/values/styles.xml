@@ -1,0 +1,35 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+
+
+    -->
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:spinnerStyle">@style/Widget.Spinner</item>
+    </style>
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/blue</item>
+        <item name="android:titleTextStyle">@style/TitleBarTextColor</item>
+    </style>
+
+    <style name="NoTitleBar" parent="@android:style/Theme.Holo.Light.NoActionBar.TranslucentDecor">
+        <item name="android:textColor">@color/Trans</item>
+        <item name="android:textSize">16dp</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="TitleBarTextColor" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+    <style name="Widget.Spinner" parent="android:Widget">
+        <item name="android:background">@drawable/spinnerbk</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+</resources>

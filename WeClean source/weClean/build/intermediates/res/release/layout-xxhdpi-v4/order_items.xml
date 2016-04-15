@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1.6"
+        android:background="@drawable/schedule_corner"
+        android:orientation="vertical"
+        android:weightSum="9" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/dress1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/shirt" />
+
+            <TextView
+                android:id="@+id/dressdescription1"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:text="@string/shirt"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/dresstype1_spinner1"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/minus_button1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="28dp"
+                android:background="#898989"
+                android:gravity="center"
+                android:text="@string/minus"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/orderquantity1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/schedule_corner"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/add_button1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="#00a2d6"
+                android:text="@string/add"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/dress2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/shirt" />
+
+            <TextView
+                android:id="@+id/dressdescription2"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:text="@string/shirt"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/dresstype1_spinner2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/minus_button2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="28dp"
+                android:background="#898989"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="@string/minus"
+                android:textColor="#ffffff"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/orderquantity2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/schedule_corner"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/add_button2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="#00a2d6"
+                android:text="@string/add"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/dress3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/trouser" />
+
+            <TextView
+                android:id="@+id/dressdescription3"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:text="@string/Trousers"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/dresstype1_spinner3"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/minus_button3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="28dp"
+                android:background="#898989"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="@string/minus"
+                android:textColor="#ffffff"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/orderquantity3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/schedule_corner"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/add_button3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="#00a2d6"
+                android:text="@string/add"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/dress4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/skirt" />
+
+            <TextView
+                android:id="@+id/dressdescription4"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:text="@string/skirts"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/dresstype1_spinner4"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/minus_button4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="28dp"
+                android:background="#898989"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="@string/minus"
+                android:textColor="#ffffff"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/orderquantity4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/schedule_corner"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/add_button4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="#00a2d6"
+                android:text="@string/add"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/dress5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/tshirt" />
+
+            <TextView
+                android:id="@+id/dressdescription5"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:text="@string/tshirts"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/dresstype1_spinner5"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/minus_button5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="28dp"
+                android:background="#898989"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="@string/minus"
+                android:textColor="#ffffff"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/orderquantity5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/schedule_corner"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/add_button5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="#00a2d6"
+                android:text="@string/add"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/dress6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/suits" />
+
+            <TextView
+                android:id="@+id/dressdescription6"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:text="@string/suits"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/dresstype1_spinner6"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/minus_button6"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="28dp"
+                android:background="#898989"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="@string/minus"
+                android:textColor="#ffffff"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/orderquantity6"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/schedule_corner"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/add_button6"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="#00a2d6"
+                android:text="@string/add"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/dress7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/loundry" />
+
+            <TextView
+                android:id="@+id/dressdescription7"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:text="@string/LoundaryBags"
+                android:textColor="#000000"
+                android:textSize="10dp" />
+
+            <Spinner
+                android:id="@+id/dresstype1_spinner7"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/minus_button7"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="28dp"
+                android:background="#898989"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="@string/minus"
+                android:textColor="#ffffff"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/orderquantity7"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/schedule_corner"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/add_button7"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="#00a2d6"
+                android:text="@string/add"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/dress8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/jackets" />
+
+            <TextView
+                android:id="@+id/dressdescription8"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:text="@string/Jackets"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/dresstype1_spinner8"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/minus_button8"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="28dp"
+                android:background="#898989"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="@string/minus"
+                android:textColor="#ffffff"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/orderquantity8"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/schedule_corner"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/add_button8"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="#00a2d6"
+                android:text="@string/add"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/dress9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/special" />
+
+            <TextView
+                android:id="@+id/dressdescription9"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:text="@string/specialItem"
+                android:textColor="#000000"
+                android:textSize="10dp" />
+
+            <Spinner
+                android:id="@+id/dresstype1_spinner9"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/minus_button9"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="28dp"
+                android:background="#898989"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:text="@string/minus"
+                android:textColor="#ffffff"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/orderquantity9"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/schedule_corner"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/add_button9"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="#00a2d6"
+                android:text="@string/add"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout><!-- From: file:/C:/Users/Hin%20Chi%20Choi/Documents/work/weclean/WeClean%20source/weClean/src/main/res/layout-xxhdpi/order_items.xml -->

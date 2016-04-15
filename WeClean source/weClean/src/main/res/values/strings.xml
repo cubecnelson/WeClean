@@ -1,0 +1,285 @@
+<resources>
+    <string name="back">Back</string>
+    <string name="register">Register</string>
+    <string name="app_name">WeClean</string>
+    <string name="forget_pass">Forgot Password?</string>
+    <string name="credit_text">Refer to a friend(both you and your friend get 50% off to the next order after he registered)</string>
+    <string name="click"><u>Click here </u>to get shop info</string>
+    <string name="verify"><u>Click here verify Code</u></string>
+    <string name="promo_valid">Valid</string>
+    <string name="promo_invalid">Invalid</string>
+    <string name="more">More..</string>
+    <string name="deliver_text">We will deliver order within</string>
+    <string name="working_days">\t2 working days</string>
+    <string name="recive_order">We received your order</string>
+    <string name="order_id">Your Order ID  is:</string>
+    <string name="pick_up">We will pick-up your order around</string>
+    <string name="before_came">We may call you before we came by</string>
+    <string name="estimated_cost">Estimated Cost: HK$</string>
+    <string name="toatldue">Total Due</string>
+    <string name="payment">Payment Method</string>
+    <string name="select_delivery">Select Delivery Type</string>
+    <string name="date">Date</string>q2
+    <string name="time">Pickup Time</string>
+    <string name="special_request">Special Request:-</string>
+    <string name="shirt">Shirt(F/S)</string>
+    <string name="add">Add</string>
+    <string name="minus">-</string>
+    <string name="pickup_text">Pick up From</string>
+    <string name="delivery_text">Delivery To</string>
+    <string name="delivery_time">Delivery Time</string>
+    <string name="ordertype">Order Type</string>
+    <string name="TotalItem"> Total Item</string>
+    <string name="EstimatedDue">Estimated Due</string>
+    <string name="Discount">Discount</string>
+    <string name="TotalEstimatedDue">Total Estimated</string>
+    <string name="Trousers">Trousers</string>
+    <string name="skirts">skirts</string>
+    <string name="tshirts">T-shirts</string>
+    <string name="suits">suits</string>
+    <string name="LoundaryBags">Loundary Bags</string>
+    <string name="Jackets">Jackets</string>
+    <string name="specialItem">Special Item</string>
+    <string name="employee">Employee</string>
+    <string name="Manager">Manager</string>
+    <string name="Deliveryman">Deliveryman</string>
+    <string name="select_list"> Select list type:</string>
+    <string name="order"> Order List</string>
+    <string name="Taptoedit">Tap to edit order</string>
+    <string name="name">Name:</string>
+    <string name="MobileNo">Mobile No-</string>
+    <string name="paymentstatus">Payment Status</string>
+    <string name="confirmpickup">Confirm Pickup</string>
+    <string name="unconfirmPickup">Unconfirm Pickup</string>
+    <string name="totalitems">Total Items :</string>
+    <string name="EstimatedTotal">Estimated Total :</string>
+    <string name="select_order">Select order type</string>
+    <string name="sort_by">Sort by:</string>
+    <string name="searchorder">Search Order</string>
+    <string name="orderstatus">Order Status</string>
+    <string name="savechanges">SaveChanges</string>
+    <string name="Cleaning_Status">Cleaning Status</string>
+    <string name="level">Level\t:</string>
+    <string name="Name">Name\t\t\t\t\t\t\t\t\t\t:</string>
+    <string name="Mobileno">Mobile No\t\t\t\t\t\t:</string>
+    <string name="comment">If you have any Comments or Complaints,Please share with us:</string>
+    <string name="myorder">My Orders</string>
+    <string name="order_no">Order No</string>
+    <string name="waiting">Waiting</string>
+    <string name="Pickedup">Pickedup</string>
+    <string name="Completed">Completed</string>
+    <string name="Payment">Payment</string>
+    <string name="Delivered">Delivered</string>
+    <string name="total">Total</string>
+    <string name="OrderinProgress">Order in Progress</string>
+    <string name="DeliveredOrder">Delivered Order</string>
+    <string name="CompletedOrder">Completed Order</string>
+    <string name="Statistics">Statistics</string>
+    <string name="pickuptitle">Schedule a pickup</string>
+    <string name="actionlogin">Login</string>
+    <string name="Submit">Submit</string>
+
+    <string name="registrationlink">http://weclean-env.elasticbeanstalk.com/WeClean/registration_insert.php</string>
+    <string name="loginconfirmlink">http://weclean-env.elasticbeanstalk.com/WeClean/customer_login.php</string>
+    <string name="passwordblank_login">http://weclean-env.elasticbeanstalk.com/WeClean/passwordblank_login.php</string>
+    <string name="lnk_retrive_cost">http://weclean-env.elasticbeanstalk.com/WeClean/Item_cost_retrival.php</string>
+    <string name="lnk_retrive_order">http://weclean-env.elasticbeanstalk.com/WeClean/retrieve_order.php</string>
+    <string name="orderdetailslink">http://weclean-env.elasticbeanstalk.com/WeClean/customer_orders_retrival.php</string>
+    <string name="orderhistorylink">http://weclean-env.elasticbeanstalk.com/WeClean/customer_historyretrive.php</string>
+    <string name="districtretrivelink">http://weclean-env.elasticbeanstalk.com/WeClean/district_retrival.php</string>
+    <string name="shopretrivelink">http://weclean-env.elasticbeanstalk.com/WeClean/shop_retrival.php</string>
+    <string name="customer_details">http://weclean-env.elasticbeanstalk.com/WeClean/customer_details_retrival.php</string>
+    <string name="commentlink">http://weclean-env.elasticbeanstalk.com/WeClean/insertcomments.php</string>
+    <string name="lnk_insert_order">http://weclean-env.elasticbeanstalk.com/WeClean/customer_order_insert.php</string>
+    <string name="lnk_modify_order">http://weclean-env.elasticbeanstalk.com/WeClean/customer_order_modify.php</string>
+    <string name="lnk_delete_order">http://weclean-env.elasticbeanstalk.com/WeClean/customer_order_delete.php</string>
+    <string name="lnk_modify_reg">http://weclean-env.elasticbeanstalk.com/WeClean/registration_modify.php</string>
+    <string name="lnk_validate_promocode">http://weclean-env.elasticbeanstalk.com/WeClean/prmocode_validation.php</string>
+    <string name="lnk_validate_mobile">http://weclean-env.elasticbeanstalk.com/WeClean/mobileno_validation.php</string>
+    <string name="lnk_disc_retrival">http://weclean-env.elasticbeanstalk.com/WeClean/discount_retrival.php</string>
+    <string name="lnk_resche_disc_retrival">http://weclean-env.elasticbeanstalk.com/WeClean/reschedule_discount_retrival.php</string>
+    <string name="lnk_forget_password">http://weclean-env.elasticbeanstalk.com/WeClean/forget_password.php</string>
+    <string name="faqslink">http://weclean-env.elasticbeanstalk.com/WeClean/customer_faqs.php</string>
+    <string name="lnk_customer_paypal_successful_modify">http://weclean-env.elasticbeanstalk.com/WeClean/customer_paypal_successful_modify.php</string>
+    <string name="lnk_image">http://weclean-env.elasticbeanstalk.com/WeClean/images/</string>
+    <string name="lnk_shop_details">http://weclean-env.elasticbeanstalk.com/WeClean/shopdetails_retrival.php</string>
+    <string name="defaultImg">special.png</string>
+
+    <string name="SystemFlag">true</string>
+    <string name="logout">Logout</string>
+    <string name="image"></string>
+    <string name="actionregistration">Register</string>
+    <string name="paynow">Pay Now</string>
+    <string name="change">Confirm</string>
+    <string name="paylater">Pay Later</string>
+    <string name="submit">Submit</string>
+    <string name="ExpectedDeliveryDate">Expected Delivery Date  &amp; Time :</string>
+    <string name="lnk_modify_deli_details">http://weclean-env.elasticbeanstalk.com/WeClean/customer_order_deliverydetails_modify.php</string>
+    <string name="not_assigned">Not yet Assigned</string>
+    <string name="refermobile">refer mobile no</string>
+    <string name="referemailid">refer email address</string>
+    <string name="referemessage">Great App WeClean,Download and Register to get 50% off on first order.Use Reference Code :</string>
+    <string name="chinesecur">HK$</string>
+    <string name="msg_orderreceived">WeClean Order Received </string>
+    <string name="msg_ordermodified">WeClean Order Modified </string>
+    <string name="msg_orderdeleted">WeClean Order Deleted </string>
+    <string name="country_code">852</string>
+    <string name="internet_fail_msg">Internet connection unavailable</string>
+
+
+    <string-array name="Pickupfrom">
+        <item>In person</item>
+        <item>Hang at door</item>
+        <item>Building security</item>
+    </string-array>
+    <string-array name="deliveryto">
+        <item>In person</item>
+        <item>Collect from the shop</item>
+        <item>Building security</item>
+    </string-array>
+
+    <string name="howitwork">How it works?</string>
+    <string name="login">Login</string>
+    <string name="vfy">Verify</string>
+    <string name="ResetCode">Reset Code</string>
+    <string name="newPassword">New Password</string>
+    <string name="reset">Reset</string>
+    <string name="verified">Email Verified</string>
+    <string name="notverified">Email Not Verified</string>
+
+    <string-array name="Language_arrays">
+        <item>English</item>
+        <item>Chinese</item>
+    </string-array>
+    <string-array name="duration_array">
+        <item>anytime</item>
+        <item>9-10pm</item>
+        <item> 10-11pm</item>
+        <item>11pm-12pm</item>
+        <item>12pm-6am</item>
+        <item>6-7am</item>
+        <item>7-8am</item>
+    </string-array>
+    <string-array name="lang_pref">
+        <item></item>
+        <item>Cantonese</item>
+        <item>Mandarin</item>
+        <item>English</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="Payment_type">
+        <item></item>
+        <item>Paypal</item>
+        <item>Cash to Employee</item>
+    </string-array>
+
+    <string name="Language_preferred">Language preferred</string>
+
+    <string-array name="Notif_Type">
+        <item>SMS</item>
+        <item>E-MAIL</item>
+    </string-array>
+
+    <string name="Notification_Type">Notification Type</string>
+    <string name="Entermobileno">Enter Mobile No</string>
+    <string name="Passwordoptional">Password(optional)</string>
+    <string name="PlaceOrder">Place Order</string>
+    <string name="defaultCost">HK$0.0</string>
+    <string name="deliverchargesMsg">HK$20 will charge extra for order under HK$200</string>
+    <string name="deliveryCharges">20</string>
+    <string name="delcharLimit">200</string>
+    <string name="deliCharge">Delivery Charge</string>
+
+    <string name="PlaceanOrder">Place an Order</string>
+    <string name="OrderList">Order List</string>
+    <string name="AccountSetting">Account Setting</string>
+    <string name="OrderStatus">Order Status</string>
+    <string name="EnterMsgMobPass">Enter correct mobile no and password</string>
+    <string name="Requesttimeout">Request timeout, please try again!!!!</string>
+    <string name="fillcomments">Please fill your comments</string>
+    <string name="CommentPostedsuccess">Comment Posted successfully</string>
+    <string name="EnterPickUpFrom">Please Enter Pick Up From</string>
+    <string name="EnterPickUpTime">Please Enter Pick Up Time</string>
+    <string name="EnterDeliveryTime">Please Enter Delivery Time</string>
+    <string name="EnterDeliveryTo">Please Enter Delivery To</string>
+    <string name="itemcleaning">Please select a item for cleaning</string>
+    <string name="tryagain">please try again!!!!</string>
+    <string name="OrderDetails">Order Details</string>
+    <string name="ToastDelicharge">Delivery charge HK$20  will apply</string>
+    <string name="residentialarea">Residential area</string>
+    <string name="assignedshop">Assigned shop</string>
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="MobileNo1">Mobile No</string>
+    <string name="AddressStreet">Address/Street</string>
+    <string name="Email">Email address(optional)</string>
+    <string name="Password">Password(optional)</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="Referal">Referal(Enter invitation/Promo Code)</string>
+    <string name="WrongCode">Wrong Code</string>
+    <string name="Fillalldetails">Fill all details</string>
+    <string name="Passwordmissmatch">Password does not match the confirm password</string>
+    <string name="ValidEmailaddress">Please enter Valid Email address</string>
+    <string name="InvitationPromoCode">Fill Invitation/Promo Code</string>
+    <string name="DetailsModified">Details Modified</string>
+    <string name="EnterMobileNo">Enter Mobile no</string>
+    <string name="VerificationIncorrect">Verification code is Incorrect</string>
+    <string name="MobilenotRegister">Mobile Number not yet Register</string>
+    <string name="PasswordReset">Password Reset</string>
+    <string name="Verifying">Verifying...</string>
+    <string name="Collectfromtheshop">Collect from the shop</string>
+    <string name="selectcolor">select color</string>
+    <string name="Modify">Modify</string>
+    <string name="Registered">Registered</string>
+    <string name="Mobilealreadyregistered">Mobile number already registered</string>
+
+    <string name="faq">WeClean is a convenient way for getting dry cleaning and laundry services.We operate two physical shops in Central and North Point over 20 years.Just register with your mobile number and home address, our deliverymen will take care of the hassles for you.</string>
+    <string name="Que">Que-</string>
+    <string name="Ans">Ans-</string>
+    <string name="ModifyOrder">Modify Order</string>
+    <string name="ViewOrderstatus">View Order status</string>
+    <string name="Selectoption">Select a option</string>
+    <string name="DeleteOrder">Delete Order</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="ShopDetails">Shop Details</string>
+    <string name="ShopName">Shop Name:</string>
+    <string name="Phoneno">Phoneno:</string>
+    <string name="Address">Address:</string>
+    <string name="Price">Price</string>
+    <string name="Areyousure">Are you sure</string>
+    <string name="Cancel">Cancel</string>
+
+
+    <string name="Inperson">送到我家</string>
+    <string name="Buildingsecurity">送到大廈管理處</string>
+    <string name="anytime">任何時段</string>
+    <string name="anytimep">任何時段</string>
+    <string name="Inpersonp">從我家收貨</string>
+    <string name="Hangatdoor">貨掛在我家門口</string>
+    <string name="Buildingsecurityp">從大廈管理處收貨</string>
+
+    <string name="cwaiting">等待</string>
+    <string name="cpickedup">已收</string>
+    <string name="ccompleted">完成</string>
+    <string name="cdelivered">已送</string>
+    <string name="paid">已付</string>
+    <string name="notpaid">未付</string>
+
+    <string name="Cantonese">廣東話</string>
+    <string name="Mandarin">普通話</string>
+    <string name="CashtoEmployee">現金</string>
+    <string name="SMS">短信</string>
+    <string name="EMAIL">電郵</string>
+
+    <string name="phonenumber8">Mobile number has to be 8 digits</string>
+    <string name="viewOrderDetails">View Order Details</string>
+    <string name="pickedupyourorder">We picked up your order at</string>
+    <string name="deliveryyourorder">Order delivered at</string>
+
+    <string name="CONFIG_CLIENT_ID">AckjUBBGdxQ1vMhrCblXrZqcHtkDw9493bbZT_HYIA62Vtiu1qfmsEmfZ8Rh</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

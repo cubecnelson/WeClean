@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+ 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:weightSum="16" 
+        android:id="@+id/loginlayout">
+
+        <EditText
+            android:id="@+id/firstname_editText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_border"
+            android:hint="@string/FirstName"
+            android:paddingBottom="5dp"
+            android:paddingLeft="12dp"
+            android:paddingTop="5dp" />
+
+        <EditText
+            android:id="@+id/lastname_editText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_border"
+            android:hint="@string/LastName"
+            android:paddingBottom="5dp"
+            android:paddingLeft="12dp"
+            android:paddingTop="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+             >
+
+            <EditText
+                android:id="@+id/mobileno1_editText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_border"
+                android:hint="@string/MobileNo1"
+                android:inputType="number"
+                android:maxLength="8"
+                android:paddingBottom="5dp"
+                android:paddingLeft="12dp"
+                android:paddingTop="5dp" />
+
+            <EditText
+                android:id="@+id/mobileno2_editText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_border"
+                android:hint="MobileNo2"
+                android:inputType="number"
+                android:maxLength="8"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp" 
+                android:textSize="12sp"
+                android:visibility="invisible"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/adress_editText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_border"
+            android:hint="@string/AddressStreet"
+            android:paddingBottom="5dp"
+            android:paddingLeft="12dp"
+            android:paddingTop="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="1" >
+
+            <Spinner
+                android:id="@+id/district_editText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.5"
+                android:paddingBottom="5dp"
+                android:paddingLeft="12dp"
+                android:paddingTop="5dp" 
+                android:prompt="@string/residentialarea"/>
+
+            <Spinner
+                android:id="@+id/clickhre_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="0.5"
+                android:text="@string/click"
+                android:prompt="@string/assignedshop" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/shopdetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:text="@string/click" />
+
+        <Button
+            android:id="@+id/more_button"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/button_bck"
+            android:paddingBottom="5dp"
+            android:text="@string/more"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/email_editText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_border"
+            android:hint="@string/Email"
+            android:paddingBottom="5dp"
+            android:paddingLeft="12dp"
+            android:paddingTop="5dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/emailstatus_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:text="@string/click" 
+            android:visibility="gone"/>
+        
+        <Button
+            android:id="@+id/submit1"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/button_bck"
+            android:paddingBottom="5dp"
+            android:text="@string/submit"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/password_editText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_border"
+            android:hint="@string/Password"
+            android:paddingBottom="5dp"
+            android:paddingLeft="12dp"
+            android:paddingTop="5dp"
+            android:visibility="gone" 
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:id="@+id/confrmpassword_editText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_border"
+            android:ems="10"
+            android:hint="@string/ConfirmPassword"
+            android:paddingBottom="5dp"
+            android:paddingLeft="12dp"
+            android:paddingTop="5dp"
+            android:visibility="gone"
+            android:inputType="textPassword" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/promocode_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_border"
+            android:ems="10"
+            android:hint="@string/Referal"
+            android:paddingLeft="12dp"
+            android:paddingTop="2dp"
+            android:textSize="17dp"
+            android:visibility="gone" >
+        </EditText>
+        
+        <TextView
+            android:id="@+id/promoverify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:text="@string/verify" 
+            android:visibility="gone"/>
+         <TextView
+            android:id="@+id/promoStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:text="@string/promo_valid" 
+            android:visibility="gone"
+            android:textStyle="bold"/>
+
+        <Spinner
+                android:id="@+id/notification_editText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="0.5"
+                android:entries="@array/Notif_Type"
+                android:prompt="@string/Notification_Type"
+                 android:visibility="gone"
+            >
+        </Spinner>
+        
+        <Spinner
+                android:id="@+id/langauge_pref"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="0.5"
+                android:entries="@array/lang_pref"
+                android:prompt="@string/Language_preferred"
+                 android:visibility="gone"
+                 />
+
+        <TextView
+            android:id="@+id/refer_TextView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="@string/credit_text"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/refer_mobileno"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_border"
+            android:ems="10"
+            android:paddingBottom="5dp"
+            android:paddingLeft="12dp"
+            android:paddingTop="5dp"
+            android:visibility="gone" 
+            android:hint="@string/refermobile"
+             android:inputType="number"
+                android:maxLength="12">
+        </EditText>
+        <EditText
+            android:id="@+id/refer_emialid"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_border"
+            android:ems="10"
+            android:paddingBottom="5dp"
+            android:paddingLeft="12dp"
+            android:paddingTop="5dp"
+            android:visibility="gone" 
+             android:hint="@string/referemailid">
+        </EditText>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_bck"
+            android:paddingBottom="5dp"
+            android:text="@string/submit"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</ScrollView>

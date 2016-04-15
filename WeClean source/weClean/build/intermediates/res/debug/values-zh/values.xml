@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/cubecnelson/Documents/WeClean%20source/WeClean%20source/weClean/src/main/res/values-zh/strings.xml -->
+    <eat-comment/>
+    <string-array name="Language_arrays">
+        <item>English</item>
+        <item>中文</item>
+    </string-array>
+    <string-array name="Notif_Type">
+        <item>短信</item>
+        <item>電郵</item>
+    </string-array>
+    <string-array name="Payment_type">
+        <item/>
+        <item>Paypal</item>
+        <item>現金</item>
+    </string-array>
+    <string-array name="Pickupfrom">
+        <item>從我家取貨</item>
+        <item>貨掛在我家門口</item>
+        <item>從大廈管理處取貨</item>
+    </string-array>
+    <string-array name="deliveryto">
+        <item>送到我家</item>
+        <item>從店取貨</item>
+        <item>送到大廈管理處</item>
+    </string-array>
+    <string-array name="duration_array">
+        <item>任何時段</item>
+        <item>9-10pm</item>
+        <item>10-11pm</item>
+        <item>11pm-12pm</item>
+        <item>12pm-6am</item>
+        <item>6-7am</item>
+        <item>7-8am</item>
+    </string-array>
+    <string-array name="lang_pref">
+        <item/>
+        <item>廣東話</item>
+        <item>普通話</item>
+        <item>English</item>
+        <item>Other</item>
+    </string-array>
+    <string name="AccountSetting">賬戶設定</string>
+    <string name="Address">地址:</string>
+    <string name="AddressStreet">地址</string>
+    <string name="Ans">答-</string>
+    <string name="Areyousure">確定嗎</string>
+    <string name="Buildingsecurity">送到大廈管理處</string>
+    <string name="Buildingsecurityp">從大廈管理處收貨</string>
+    <string name="Cancel">取消</string>
+    <string name="Cantonese">廣東話</string>
+    <string name="CashtoEmployee">現金</string>
+    <string name="Cleaning_Status">清洗狀態</string>
+    <string name="Collectfromtheshop">從店取貨</string>
+    <string name="CommentPostedsuccess">意見已經發出</string>
+    <string name="CompletedOrder">已完成訂單</string>
+    <string name="ConfirmPassword">確認密碼</string>
+    <string name="DeleteOrder">取消訂單</string>
+    <string name="DeliveredOrder">已送訂單</string>
+    <string name="Deliveryman">送貨員</string>
+    <string name="DetailsModified">修改</string>
+    <string name="Discount">折扣</string>
+    <string name="EMAIL">電郵</string>
+    <string name="Email">電郵地址</string>
+    <string name="EnterDeliveryTime">送貨時段</string>
+    <string name="EnterDeliveryTo">送貨方式</string>
+    <string name="EnterMobileNo">輸入手機號碼</string>
+    <string name="EnterMsgMobPass">輸入正確的手機號碼和密碼</string>
+    <string name="EnterPickUpFrom">收貨方式</string>
+    <string name="EnterPickUpTime">收貨時段</string>
+    <string name="Entermobileno">輸入手機號碼</string>
+    <string name="EstimatedDue">預計總費</string>
+    <string name="EstimatedTotal">預計總費</string>
+    <string name="ExpectedDeliveryDate">預計送貨時段:</string>
+    <string name="Fillalldetails">填寫細節</string>
+    <string name="FirstName">名</string>
+    <string name="Hangatdoor">貨掛在我家門口</string>
+    <string name="Inperson">送到我家</string>
+    <string name="Inpersonp">從我家收貨</string>
+    <string name="InvitationPromoCode">促銷碼</string>
+    <string name="Jackets">西衫</string>
+    <string name="Language_preferred">首選語言</string>
+    <string name="LastName">姓</string>
+    <string name="LoundaryBags">磅濕洗</string>
+    <string name="Manager">店經理</string>
+    <string name="Mandarin">普通話</string>
+    <string name="MobileNo">手機號碼</string>
+    <string name="MobileNo1">手機號碼</string>
+    <string name="Mobilealreadyregistered">此手機號碼已註冊</string>
+    <string name="Mobileno">手機號碼\t\t\t\t\t\t:</string>
+    <string name="MobilenotRegister">此手機號碼尚未註冊</string>
+    <string name="Modify">修改</string>
+    <string name="ModifyOrder">修改訂單</string>
+    <string name="Name">姓名\t\t\t\t\t\t\t\t\t\t:</string>
+    <string name="No">不</string>
+    <string name="Notification_Type">通知方式</string>
+    <string name="OrderDetails">訂單詳細信息</string>
+    <string name="OrderList">訂單列表</string>
+    <string name="OrderStatus">訂單狀態</string>
+    <string name="OrderinProgress">正在處理訂單</string>
+    <string name="Password">密碼</string>
+    <string name="PasswordReset">重設密碼</string>
+    <string name="Passwordmissmatch">密碼不正確</string>
+    <string name="Passwordoptional">密碼(如已設定)</string>
+    <string name="Phoneno">電話號碼:</string>
+    <string name="PlaceOrder">下單</string>
+    <string name="PlaceanOrder">下單</string>
+    <string name="Price">價格</string>
+    <string name="Que">問-</string>
+    <string name="Referal">介紹人(輸入促銷碼)</string>
+    <string name="Registered">註冊完成</string>
+    <string name="Requesttimeout">請重試!!</string>
+    <string name="ResetCode">重設密碼</string>
+    <string name="SMS">短信</string>
+    <string name="Selectoption">選項</string>
+    <string name="ShopDetails">店鋪詳細</string>
+    <string name="ShopName">店名:</string>
+    <string name="Statistics">統計</string>
+    <string name="Submit">提交</string>
+    <string name="SystemFlag">true</string>
+    <string name="Taptoedit">修改訂單</string>
+    <string name="ToastDelicharge">收送費20元</string>
+    <string name="TotalEstimatedDue">總費</string>
+    <string name="TotalItem">總件數</string>
+    <string name="Trousers">西褲</string>
+    <string name="ValidEmailaddress">請輸入有效電郵地址</string>
+    <string name="VerificationIncorrect">驗證碼錯誤</string>
+    <string name="Verifying">驗證...</string>
+    <string name="ViewOrderstatus">查看訂單狀態</string>
+    <string name="WrongCode">錯誤代碼</string>
+    <string name="Yes">是</string>
+    <string name="actionlogin">登入</string>
+    <string name="actionregistration">註冊</string>
+    <string name="add">加</string>
+    <string name="anytime">任何時段</string>
+    <string name="anytimep">任何時段</string>
+    <string name="app_name">WeClean</string>
+    <string name="assignedshop">分店</string>
+    <string name="back">返回</string>
+    <string name="ballroom_dress">晚裝裙</string>
+    <string name="before_came">我們來之前會先打電話給你</string>
+    <string name="ccompleted">完成</string>
+    <string name="cdelivered">已送</string>
+    <string name="change">更改</string>
+    <string name="chinesecur">港幣</string>
+    <string name="click"><u>取店鋪信息</u></string>
+    <string name="comment">如有任何意見或投訴,請告訴我們</string>
+    <string name="confirmpickup">確認已收</string>
+    <string name="country_code">852</string>
+    <string name="cpickedup">已收</string>
+    <string name="credit_text">介紹給朋友(你的朋友註冊後,你和他同時獲得下一個訂單的50％折扣)</string>
+    <string name="cwaiting">等待</string>
+    <string name="date">日期</string>
+    <string name="deliver_text">我們會在2天內送貨</string>
+    <string name="deliverchargesMsg">如果總數超過200元,收送免費,否則加20元</string>
+    <string name="delivery_text">送貨方式</string>
+    <string name="delivery_time">送貨時段</string>
+    <string name="deliveryyourorder">在訂單交付</string>
+    <string name="down_jackets">羽絨褸</string>
+    <string name="employee">店員</string>
+    <string name="estimated_cost">總費港幣</string>
+    <string name="faq">WeClean是超方便的乾洗和濕洗服務。
+我們經營中環及北角兩個店鋪超過20年。
+只需用手機號碼和地址登記,我們的店員會為您齊全服務。</string>
+    <string name="fillcomments">請填寫您的意見</string>
+    <string name="forget_pass">忘記密碼?</string>
+    <string name="howitwork">詳細</string>
+    <string name="image"/>
+    <string name="internet_fail_msg">現在不能連接互聯網</string>
+    <string name="itemcleaning">請選項</string>
+    <string name="leather">皮革</string>
+    <string name="level">級別\t:</string>
+    <string name="login">登入</string>
+    <string name="logout">登出</string>
+    <string name="minus">減</string>
+    <string name="more">更多..</string>
+    <string name="msg_orderdeleted">已取消訂單</string>
+    <string name="msg_ordermodified">已修改訂單</string>
+    <string name="msg_orderreceived">已接到訂單 </string>
+    <string name="myorder">我的訂單</string>
+    <string name="name">姓名</string>
+    <string name="newPassword">新密碼</string>
+    <string name="not_assigned">尚未分配</string>
+    <string name="notpaid">未付</string>
+    <string name="notverified">電子郵件未驗證</string>
+    <string name="one_piece">連衣裙</string>
+    <string name="order">訂單表</string>
+    <string name="order_id">您的訂單號碼是:</string>
+    <string name="order_no">訂單號碼</string>
+    <string name="orderstatus">訂單狀態</string>
+    <string name="ordertype">訂單類型</string>
+    <string name="paid">已付</string>
+    <string name="paylater">往後付</string>
+    <string name="payment">付款方式</string>
+    <string name="paymentstatus">付款狀態</string>
+    <string name="paynow">現在付</string>
+    <string name="phonenumber8">移動電話號碼必須是8位數字</string>
+    <string name="pick_up">我們將在以下的時段收貨</string>
+    <string name="pickedupyourorder">我們拿起您的訂單</string>
+    <string name="pickup_text">取貨方式</string>
+    <string name="pickuptitle">下單</string>
+    <string name="promo_invalid">無效</string>
+    <string name="promo_valid">有效</string>
+    <string name="recive_order">我們已經收到您的訂單</string>
+    <string name="referemailid">介紹人電郵地址</string>
+    <string name="referemessage">介紹給朋友（你的朋友註冊後,你和他同時獲得下一個訂單的50％折扣)</string>
+    <string name="refermobile">介紹人手機號碼</string>
+    <string name="register">申請帳戶</string>
+    <string name="reset">重設</string>
+    <string name="residentialarea">住區</string>
+    <string name="savechanges">保存</string>
+    <string name="searchorder">尋找訂單</string>
+    <string name="select_delivery">送貨方式</string>
+    <string name="select_list">選擇列表</string>
+    <string name="select_order">訂單類型</string>
+    <string name="selectcolor">選色</string>
+    <string name="shirt">恤衫</string>
+    <string name="skirts">西裙</string>
+    <string name="sort_by">排序方式</string>
+    <string name="specialItem">其他</string>
+    <string name="special_request">特別要求:</string>
+    <string name="submit">提交</string>
+    <string name="suits">西裝</string>
+    <string name="sweater">毛衣</string>
+    <string name="tie">領呔</string>
+    <string name="time">時段</string>
+    <string name="toatldue">總數</string>
+    <string name="total">總數</string>
+    <string name="totalitems">總件數:</string>
+    <string name="tryagain">請再試一次!!!!</string>
+    <string name="tshirts">T恤</string>
+    <string name="unconfirmPickup">未收</string>
+    <string name="verified">電子郵件驗證</string>
+    <string name="verify"><u>取驗證碼</u></string>
+    <string name="vest">西背心</string>
+    <string name="vfy">確認</string>
+    <string name="viewOrderDetails">查看訂單詳情</string>
+    <string name="women_suits">套裙</string>
+    <string name="working_days">\t2 天</string>
+</resources>

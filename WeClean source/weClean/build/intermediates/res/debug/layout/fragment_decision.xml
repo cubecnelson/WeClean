@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ligootech.weclean.Registration.Fragment.DecisionFragment">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:orientation="horizontal"
+            android:layout_margin="30dp"
+            >
+
+            <Button
+                android:layout_margin="5dp"
+                android:id="@+id/login_button"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/button_ivory"
+                android:text="@string/login"
+                android:textColor="@color/White"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:layout_margin="5dp"
+                android:id="@+id/register_button"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/button_cadet"
+                android:text="@string/register"
+                android:textColor="@color/White"
+                android:textStyle="bold"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+</FrameLayout>
+<!-- From: file:/C:/Users/cubecnelson/Documents/WeClean%20source/WeClean%20source/weClean/src/main/res/layout/fragment_decision.xml -->

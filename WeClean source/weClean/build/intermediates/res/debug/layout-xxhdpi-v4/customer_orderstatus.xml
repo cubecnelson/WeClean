@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical"
+    android:weightSum="1" 
+    android:id="@+id/container">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.5"
+        android:background="@drawable/schedule_corner"
+        android:orientation="vertical"
+        android:weightSum="1" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1" >
+
+            <TextView
+                android:id="@+id/orderlist_textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:text="@string/myorder"
+                android:textColor="#333333"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.80" >
+
+            <ListView
+                android:id="@+id/addlistView1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="4.5"
+                android:alpha="0.9"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+            </ListView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3" >
+
+        <TextView
+            android:id="@+id/commenttextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="14dp"
+            android:gravity="center"
+            android:text="@string/comment"
+            android:textColor="#343434"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/editcomment"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="68dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edittext_border"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:textColor="#000000"
+            android:inputType="text"
+            >
+            </EditText>
+
+        <Button
+            android:id="@+id/submit_button1"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="27dp"
+            android:background="@drawable/button_grey"
+            android:paddingBottom="5dp"
+            android:text="@string/Submit"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="0.1" >
+
+        <Button
+            android:id="@+id/place_button1"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/pink_border"
+            android:gravity="center" 
+             android:text="@string/PlaceOrder"
+             android:textStyle="bold"
+             android:textColor="#ffffff"/>
+
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/cubecnelson/Documents/WeClean%20source/WeClean%20source/weClean/src/main/res/layout-xxhdpi/customer_orderstatus.xml -->
